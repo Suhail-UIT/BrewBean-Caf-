@@ -1,0 +1,506 @@
+{
+  "users": [
+    {
+      "_id": "user-admin-1",
+      "name": "BrewBean Manager",
+      "email": "admin@brewbeancafe.in",
+      "phone": "+91 98765 42180",
+      "password": "$2b$10$jte5w3lHfNJasqpI2kYUHuZ0CXR/mp/FE1lw9xW/Xwr7O98Pf9hFS",
+      "role": "admin",
+      "createdAt": "2026-09-22T17:17:07.572Z"
+    },
+    {
+      "_id": "user-cust-1",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "phone": "+91 98123 45678",
+      "password": "$2b$10$QGTMc/gmO0vVw8RzOGp7uuXGK0spsNHA4ha/pugP7PBXwwFASHALy",
+      "role": "customer",
+      "createdAt": "2026-09-22T17:17:07.573Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "6ab2ccd906fdc6a3cc93074e",
+      "name": "Espresso",
+      "description": "A bold, concentrated shot extracted under high pressure from 100% single-origin Arabica beans with a golden crema.",
+      "price": 120,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "100% Arabica Espresso Shot",
+        "Filtered Hot Water"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93074f",
+      "name": "Classic Cappuccino",
+      "description": "Perfect harmony of rich espresso, steamed whole milk, and a thick, velvety crown of micro-foam dusted with organic cocoa.",
+      "price": 160,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Espresso",
+        "Steamed Milk",
+        "Velvet Milk Foam",
+        "Belgian Cocoa Dust"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930750",
+      "name": "Café Latte",
+      "description": "Smooth, subtle espresso blended delicately with generous steamed milk, topped with a gentle layer of hand-poured latte art.",
+      "price": 170,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Espresso",
+        "Silky Steamed Milk",
+        "Light Micro-foam"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930751",
+      "name": "Hazelnut Latte",
+      "description": "Signature espresso and steamed milk infused with roasted caramelized hazelnut syrup and topped with toasted hazelnut crush.",
+      "price": 190,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Dark Espresso",
+        "Hazelnut Puree & Syrup",
+        "Steamed Milk",
+        "Hazelnut Flakes"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930752",
+      "name": "Cold Coffee",
+      "description": "Our iconic Indian café style cold brew blended with rich milk, sweet cream, and vanilla bean gelato, served tall and chilled.",
+      "price": 180,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Cold Espresso Concentrate",
+        "Fresh Whole Milk",
+        "Vanilla Ice Cream Scoop",
+        "Ice Cubes"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930753",
+      "name": "Mocha Frappe",
+      "description": "Decadent frozen dessert blend of double espresso, rich Belgian dark chocolate ganache, milk, and hand-whipped cream.",
+      "price": 210,
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Double Espresso",
+        "Dark Chocolate Sauce",
+        "Chilled Milk",
+        "Whipped Cream",
+        "Chocolate Curls"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930754",
+      "name": "Avocado Toast",
+      "description": "Freshly toasted artisan sourdough toast crowned with smashed Haas avocados, cherry tomatoes, feta crumble, and chili flakes.",
+      "price": 220,
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Artisanal Sourdough",
+        "Haas Avocado",
+        "Cherry Tomatoes",
+        "Greek Feta Cheese",
+        "Extra Virgin Olive Oil",
+        "Microgreens"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930755",
+      "name": "Classic Pancakes with Maple Syrup",
+      "description": "Stack of three fluffy golden-brown buttermilk pancakes served with cultured salted butter, berry compote, and pure maple syrup.",
+      "price": 210,
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Fluffy Buttermilk Batter",
+        "Pure Maple Syrup",
+        "Wild Berry Compote",
+        "French Butter Cube"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930756",
+      "name": "Paneer Tikka Grilled Sandwich",
+      "description": "Marinated cottage cheese cubes chargrilled with bell peppers and layered in toasted multi-grain bread with mint chutney.",
+      "price": 190,
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Multi-grain Bread",
+        "Tandoori Spiced Paneer",
+        "Capsicum & Onions",
+        "Spicy Mint Mayo",
+        "Cheddar Melt"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930757",
+      "name": "Farm Fresh English Breakfast Platter",
+      "description": "Hearty morning feast with grilled tomatoes, sautéed garlic mushrooms, baked beans, golden hash browns, and buttered toast.",
+      "price": 280,
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Crispy Hash Browns",
+        "Baked English Beans",
+        "Herb Grilled Tomatoes",
+        "Butter Sautéed Mushrooms",
+        "Garlic Sourdough Toast"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930758",
+      "name": "Margherita Pizza",
+      "description": "Thin-crust Neapolitan style pizza baked with San Marzano tomato sauce, fresh buffalo mozzarella, fragrant basil, and olive oil.",
+      "price": 320,
+      "category": "Pizza",
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Hand-stretched Dough",
+        "San Marzano Plum Tomatoes",
+        "Fresh Mozzarella",
+        "Sweet Basil Leaves",
+        "Cold Pressed Olive Oil"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930759",
+      "name": "Farmhouse Veggie Supreme",
+      "description": "Loaded with oven-roasted bell peppers, red onions, mushrooms, sweet corn, black olives, and melted mozzarella cheese blend.",
+      "price": 380,
+      "category": "Pizza",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Herbed Tomato Coulis",
+        "Tricolor Bell Peppers",
+        "Kalamata Olives",
+        "Button Mushrooms",
+        "Golden Sweetcorn",
+        "Mozzarella"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075a",
+      "name": "Paneer Makhani Fusion Pizza",
+      "description": "Delhi-NCR favorite: buttery makhani sauce base with succulent tandoori paneer tikka, crisp onions, coriander, and mozzarella.",
+      "price": 420,
+      "category": "Pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Smoked Makhani Gravy Base",
+        "Tandoori Spiced Cottage Cheese",
+        "Crisp Red Onion Rings",
+        "Coriander Drizzle",
+        "Melted Mozzarella"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075b",
+      "name": "Creamy White Sauce Penne Alfredo",
+      "description": "Italian penne pasta cooked al dente in a velvety garlic parmesan and herb cream sauce with broccoli florets and mushrooms.",
+      "price": 290,
+      "category": "Pasta",
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Durum Wheat Penne",
+        "Heavy Cooking Cream",
+        "Aged Parmesan",
+        "Roasted Garlic",
+        "Fresh Broccoli Florets",
+        "Herbed Butter"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075c",
+      "name": "Spicy Arrabbiata Penne",
+      "description": "Zesty Roman tomato sauce tossed with garlic, crushed red chilies, extra virgin olive oil, black olives, and fresh basil.",
+      "price": 270,
+      "category": "Pasta",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Penne Rigate",
+        "Crushed Italian Plum Tomatoes",
+        "Red Chili Flakes",
+        "Sliced Garlic",
+        "Spanish Black Olives",
+        "Fresh Oregano"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075d",
+      "name": "Basil Pesto Spaghetti",
+      "description": "Fresh homemade Genovese basil pesto with toasted pine nuts, garlic, extra virgin olive oil, and shaved parmesan over spaghetti.",
+      "price": 320,
+      "category": "Pasta",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281698?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Bronze-cut Spaghetti",
+        "Organic Sweet Basil Pesto",
+        "Toasted Pine Nuts",
+        "Extra Virgin Olive Oil",
+        "Parmigiano Reggiano"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075e",
+      "name": "Classic Veggie Crunch Burger",
+      "description": "Crispy spiced potato and herb patty layered with crisp iceberg lettuce, tomato slice, caramelized onions, and house burger relish.",
+      "price": 180,
+      "category": "Burgers",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Brioche Bun",
+        "Crispy Herb Potato Patty",
+        "Iceberg Lettuce",
+        "Beefsteak Tomato",
+        "House Thousand Island Sauce"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc93075f",
+      "name": "Smoked Cottage Cheese Melt Burger",
+      "description": "Thick marinated grilled paneer steak with chipotle barbecue drizzle, sautéed mushrooms, pickled jalapeños, and cheddar cheese.",
+      "price": 240,
+      "category": "Burgers",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Toasted Sesame Bun",
+        "Grilled Tandoori Paneer Steak",
+        "Chipotle BBQ Glaze",
+        "Pickled Jalapeños",
+        "Melted Aged Cheddar"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": false
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930760",
+      "name": "Warm Walnut Brownie with Ice Cream",
+      "description": "Freshly baked fudgy dark chocolate walnut brownie served warm with a scoop of Madagascar vanilla bean gelato and hot fudge.",
+      "price": 170,
+      "category": "Desserts",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Callebaut Dark Chocolate",
+        "California Walnuts",
+        "Madagascar Vanilla Ice Cream",
+        "Hot Chocolate Ganache"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930761",
+      "name": "Classic Italian Tiramisu",
+      "description": "Espresso-soaked Savoiardi ladyfinger cookies layered with velvety whipped mascarpone cream and dusted with Valrhona cocoa.",
+      "price": 220,
+      "category": "Desserts",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "BrewBean Espresso",
+        "Italian Savoiardi Ladyfingers",
+        "Mascarpone Cream",
+        "Valrhona Dutch Cocoa"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    },
+    {
+      "_id": "6ab2ccd906fdc6a3cc930762",
+      "name": "Chocolate Truffle Cake",
+      "description": "Layers of moist dark chocolate sponge layered with decadent Belgian dark chocolate truffle ganache and dusted with fine Dutch cocoa.",
+      "price": 180,
+      "category": "Desserts",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "ingredients": [
+        "Belgian Chocolate",
+        "Chocolate Sponge",
+        "Heavy Ganache",
+        "Dutch Cocoa Powder"
+      ],
+      "vegetarian": true,
+      "available": true,
+      "popular": true
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord-1001",
+      "orderNumber": "BB-9201",
+      "user": {
+        "userId": "user-cust-1",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@example.com",
+        "phone": "+91 98123 45678"
+      },
+      "items": [
+        {
+          "product": "prod-c2",
+          "name": "Classic Cappuccino",
+          "price": 160,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "product": "prod-pa2",
+          "name": "Creamy Alfredo Pasta",
+          "price": 279,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "subtotal": 599,
+      "taxes": 30,
+      "deliveryCharge": 30,
+      "totalAmount": 659,
+      "orderType": "Delivery",
+      "address": {
+        "street": "Tower 4, Flat 502, Cleo County, Sector 121",
+        "city": "Noida",
+        "pincode": "201307"
+      },
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Completed",
+      "createdAt": "2026-09-22T15:17:07.573Z"
+    },
+    {
+      "_id": "ord-1002",
+      "orderNumber": "BB-9202",
+      "user": {
+        "name": "Ananya Verma",
+        "email": "ananya.verma@example.com",
+        "phone": "+91 98765 11223"
+      },
+      "items": [
+        {
+          "product": "prod-c4",
+          "name": "Hazelnut Latte",
+          "price": 190,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "product": "prod-p1",
+          "name": "Margherita Pizza",
+          "price": 299,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "subtotal": 489,
+      "taxes": 25,
+      "deliveryCharge": 0,
+      "totalAmount": 514,
+      "orderType": "Dine-in",
+      "paymentMethod": "Card",
+      "paymentStatus": "Paid",
+      "status": "Preparing",
+      "createdAt": "2026-09-22T16:47:07.573Z"
+    }
+  ],
+  "reservations": [
+    {
+      "_id": "res-201",
+      "name": "Arjun Mehta",
+      "phone": "+91 98991 23456",
+      "email": "arjun.mehta@example.com",
+      "date": "2026-09-23",
+      "time": "19:30",
+      "guests": 4,
+      "specialRequest": "Window table preferred for an anniversary celebration.",
+      "status": "Confirmed",
+      "createdAt": "2026-09-22T17:17:07.573Z"
+    },
+    {
+      "_id": "res-202",
+      "name": "Priya Nambiar",
+      "phone": "+91 97112 34890",
+      "email": "priya.n@example.com",
+      "date": "2026-09-24",
+      "time": "16:00",
+      "guests": 2,
+      "specialRequest": "Quiet corner for remote work session with laptop charging port.",
+      "status": "Confirmed",
+      "createdAt": "2026-09-22T17:17:07.573Z"
+    }
+  ],
+  "contacts": [
+    {
+      "_id": "cnt-301",
+      "name": "Sameer Kapoor",
+      "email": "sameer.k@techcorp.in",
+      "phone": "+91 98111 88990",
+      "message": "Hi team, do you host corporate coffee tasting events or team lunches on weekdays in your Sector 62 café?",
+      "createdAt": "2026-09-22T17:17:07.573Z"
+    }
+  ]
+}

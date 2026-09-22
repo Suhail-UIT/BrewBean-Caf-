@@ -1,0 +1,6 @@
+{
+  "name": "BrewBean Café",
+  "description": "Handcrafted coffee, delicious artisanal food, and cozy workspace moments in Sector 62, Noida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
